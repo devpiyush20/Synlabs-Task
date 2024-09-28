@@ -73,7 +73,7 @@ const CreateUserForm = ( {previousData,setNewUserData , setCreatingUser}) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-lg bg-white shadow-md rounded-lg p-6">
+    <form onSubmit={handleSubmit} className=" w-[300px] md:w-[600px] bg-white shadow-md rounded-lg p-6">
       <h2 className="text-2xl font-bold mb-6">Create New User</h2>
 
       {/* User Info */}
